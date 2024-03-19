@@ -1,0 +1,429 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+section{
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.first-sec{
+    border: 2px solid #eef0ef;
+    background-color:#eef0ef
+}
+.container{
+    padding:10px;
+    align-items: center;
+} 
+.navbar-brand img{
+    width: 28px;
+    align-items: center;
+}
+.search{
+    display: flex;
+}
+.col-auto{
+    margin-left: 10px;
+}
+.search input{
+    width: 280px;
+    height:48px ;
+    margin: 0px 10px;
+}
+.badge{
+    background-color: red;
+}
+.search #dropdownMenuButton1{
+    background-color: white;
+    color: black;
+    height: 48px;
+    width: 195px;
+}
+.col-auto input {
+        height: 48px;
+        width: 460px;
+}
+.search button{
+    height: 48px;
+    padding: 0 25px;
+}
+marquee img{
+    width: 80px;
+    height: 80px;
+    padding: 10px;
+    border-radius: 50%;
+}
+marquee .slide {
+    color: red;
+    align-items: center;
+    text-align: center;
+    width: 120px;
+    height: 110px;
+    background-color: white;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: all .3s;
+  
+}
+marquee .slide:hover{
+    border: 1px solid red;
+}
+marquee .slide-box{
+    display:flex ;
+
+}
+.slide-icon1{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+   
+}
+.slide-icon2{
+    background-color: white;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.col-8{
+    position: relative;
+}
+.slide-icon1{
+    position: absolute;
+    top: 66%;
+    left: 5%;
+}
+.slide-icon2{
+    position: absolute;
+    top: 66%;
+    right: 35%;
+}
+marquee .burger-cont img{
+    width: 350px;
+    height: 53vh;
+    border-radius: 15px;
+    position: relative;
+}
+.col-4 {
+    width: 100%;
+    position: relative;
+}
+marquee{
+    margin-left: 30px;
+}
+.burger-cont button {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+    padding: 0 20px;
+}
+.burger-cont .h1p{
+    bottom: 0;
+    color: white;
+    left: 50px;
+    position: absolute;
+}
+.slide-flex{
+    display: flex;
+}
+.main-box{
+    display:flex;
+    justify-content: space-around;
+}
+.main-box img{
+    width: 250px;
+}
+.slider{
+    position: relative;
+}
+.slider img{
+    width: 100%;
+}
+.carousel-inner h5{
+   font-weight: 800;
+   text-align: left;
+   font-size: 24px;
+}
+.carousel-inner p{
+    font-size: 20px;
+    font-weight: 400;
+    text-align: left;
+}
+.carousel-inner{
+    position:relative
+}
+.off-btn{
+    position:absolute;
+    top: 10px;
+    left: 10px;
+    padding: 0px 30px;
+    letter-spacing: .1em;
+    border: none;
+}
+
+
+.col {
+    position: relative;
+    margin-bottom: 50px;
+
+}
+.col img{
+ width: 260px;
+ height: 40vh;
+}
+
+.col button{
+    font-size: 13px;
+    position:absolute;
+    top: 10px;   
+    left: 30px;
+    padding: 0px 10px;
+    border: none;
+    letter-spacing: .2rem;
+    
+}
+.col .join{
+    font-size: 14px;
+    color: white;
+    position:absolute;
+    bottom:0;
+    background-color: black;
+    opacity: .5;
+   width: 260px;
+}
+.sec-head{
+    text-align: center;
+    margin-bottom: 50px;
+    
+}
+.sec-head i{
+    width: 10%;
+    
+}
+.sec-head .empty{
+    width: 5%;
+   margin-left: 48%;
+    border-bottom: 4px solid gray;
+    border-radius: 10px;
+}
+
+.card{
+    position: relative;
+}
+.card-body .fs{
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: bold;
+}
+.card-body h5 .dolor{
+    margin-left: 40px;
+    font-size: 12px;
+    
+}
+.card-body h4{
+    font-size: 16px;
+    font-weight: bold;
+}
+.card-text{
+    font-size: 13px;
+}
+.card-body h5 .clock{
+    padding: 2px 5px;
+    font-size: 12px;
+    background-color: rgb(230, 230, 230);
+}
+
+.card-body h5 {
+    font-size: 16px;
+}
+.card h6{
+    font-size: 10px;
+    color: white;
+    position: absolute;
+    top: 43%;
+    right: 10px;
+    padding: 5px;
+    background-color: rgb(83, 216, 130);
+    border-radius: 3px;
+    font-weight: bold;
+
+}
+.card img{ 
+    width: 100%;
+    height: 30vh;
+   
+}
+.card img i{
+    position: absolute;
+    top: 0;
+    right: 0;
+
+}
+.heart i{
+    position: absolute;
+    color: red;
+    top: 10px;
+    right: 10px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    /* padding: 10px; */
+    border-radius: 50%;
+}
+.card button{
+    background-color: rgb(63, 62, 62);
+    padding: 5px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    font-size: 10px;
+}
+.sec-head button{
+    font-weight: 700;
+    margin-top: 40px;
+    padding: 12px 50px;
+ text-align: center;
+ background-color: #3ecf8e;
+ margin-bottom: 50px;
+}
+.st{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.st span{
+    color:orangered;
+}
+#fi input{
+    width: 200px;
+    height: 40px;
+    border-radius: 2px;
+   
+}
+#fi{
+    display: flex;
+    justify-content: space-around;
+}
+#fi button{
+background-color: orangered;
+    /* margin-left: 10px; */
+border-radius: 1px;
+height: 39px;
+}
+.footer ul li{
+    margin: 5px;
+    color: rgb(118, 129, 139);
+    font-size: 13px;
+    font-weight: bold;
+   list-style-type: none;
+}
+.ftt h6{
+    font-size: 14px;
+    margin-left: 30px;
+}
+h6 #fff {
+    color: gray;
+}
+.pmbadge img{
+text-align: left;
+    width: 100px;
+}
+.contry p{
+     font-size: 12px;
+     font-weight: bold;
+     color: grey;
+}
+.f-last{
+    background-color:#eef0ef;
+    margin-top: 10px;
+    text-align: center;
+    padding: 30px;
+
+}
+.f-last h6{
+    color: gray;
+}
+.f-last p{
+    font-size: 12px;
+    font-weight: bold;
+    
+}
+.f-last p i{
+    color: red;
+}
+
+
+@media (min-width: 320px) and (max-width: 480px) { 
+    .search{
+        display: block;
+        justify-content: center;
+        align-items: center;
+    }
+     .search input{
+        margin:10px;
+     }
+     .search button{
+        height: 40px;
+        margin-left: 10px;
+     }
+   .col-md-4 .slider{
+    margin-top: 30px;
+   }
+   .col img{
+    display: block;
+   }
+   .slide-icon1{
+    top: 576px;
+}
+.slide-icon2 {
+    top: 576px;
+    right: 1%;
+}
+.search input {
+    width: 200px;
+    height: 37px;
+}
+.btn{
+    width: 100px;
+    height: 35px !important;
+}
+.sec-head button{
+    width: 200px;
+    font-size: 12px;
+}
+.col {
+    margin-left: 17px;
+}
+.col-auto{
+    margin-left: unset;
+
+}
+#fi{
+    justify-content:normal;
+}
+#fi input{
+    width: 145px;
+    height: 36px;
+}
+#fi button{
+    height: 36px;
+    margin-left: -4px;
+}
+.ftt{
+    margin:10px
+}
+.pmbadge{
+    margin-bottom: 20px;
+}
+ }
+    
